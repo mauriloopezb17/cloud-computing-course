@@ -1,4 +1,7 @@
 name: hola Mau
+on:
+  push:
+    branches: [main]
 jobs:
   saludar:
     runs-on: ubuntu-latest
