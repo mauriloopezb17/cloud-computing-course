@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Bienvenidos al Curso
+# Bienvenidos al Curso de Cloud Computing
 
 Bienvenidos a la documentación del curso de **Computación en la Nube**. Aquí encontraras los materiales, guías y referencias para seguir el curso.
 
@@ -11,6 +11,7 @@ Bienvenidos a la documentación del curso de **Computación en la Nube**. Aquí 
 ## Objetivos del Curso
 
 ### Docker
+
 - VMs vs Contenedores
 - Arquitectura Docker
 - Imágenes y capas
@@ -21,7 +22,9 @@ Bienvenidos a la documentación del curso de **Computación en la Nube**. Aquí 
 - Volúmenes persistentes
 
 ### Cloud (AWS)
+
 Material en el apartado **AWS**:
+
 - [Conceptos básicos](./aws/conceptos-basicos.md)
 - [EC2](./aws/ec2.md) — cómputo
 - [RDS](./aws/rds.md) — bases de datos relacionales
@@ -45,6 +48,7 @@ Material en el apartado **AWS**:
 - [Optimización y control (opcional)](./cicd/optimizacion-control.md)
 
 ### Kubernetes
+
 - Arquitectura K8s y componentes
 - Conceptos básicos: Pods, Nodes
 - Deployments, ReplicaSets y estrategias de actualización
@@ -55,10 +59,10 @@ Material en el apartado **AWS**:
 
 ## Evaluaciones
 
-| Tema        | Semana |
-|------------|--------|
-| Docker     | Semana 5  |
-| Cloud      | Semana 9  |
+| Tema               | Semana    |
+| ------------------ | --------- |
+| Docker             | Semana 5  |
+| Cloud              | Semana 9  |
 | CI/CD y Kubernetes | Semana 15 |
 
 ---
@@ -66,6 +70,7 @@ Material en el apartado **AWS**:
 ## Criterios de Calificación
 
 **Parcial**
+
 - **Examen:** 70%
 - **Prácticas:** 30%
 
