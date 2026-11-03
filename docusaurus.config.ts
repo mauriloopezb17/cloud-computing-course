@@ -1,13 +1,13 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Documentación',
-  tagline: 'Cloud Computing Course',
-  favicon: 'img/favicon.ico',
+  title: "Documentación",
+  tagline: "Cloud Computing Course",
+  favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -15,38 +15,38 @@ const config: Config = {
   },
 
   // GitHub Pages - Repo: https://github.com/JuanJoseMirandaM/cloud-computing-course
-  url: 'https://juanjosemirandam.github.io',
-  baseUrl: '/cloud-computing-course/',
+  url: "https://mauriloopezb17.github.io",
+  baseUrl: "/cloud-computing-course/",
 
-  organizationName: 'JuanJoseMirandaM',
-  projectName: 'cloud-computing-course',
+  organizationName: "mauriloopezb17",
+  projectName: "cloud-computing-course",
 
-  deploymentBranch: 'gh-pages',
+  deploymentBranch: "gh-pages",
   trailingSlash: true,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: "throw",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          routeBasePath: '/', // docs en la ruta principal
-          sidebarPath: './sidebars.ts',
+          routeBasePath: "/", // docs en la ruta principal
+          sidebarPath: "./sidebars.ts",
           editUrl:
-            'https://github.com/JuanJoseMirandaM/cloud-computing-course/tree/main/',
+            "https://github.com/JuanJoseMirandaM/cloud-computing-course/tree/main/",
         },
         blog: false, // sin blog
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       } satisfies Preset.Options,
     ],
@@ -54,31 +54,31 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: "img/docusaurus-social-card.jpg",
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Cloud Computing Course',
+      title: "Cloud Computing Course",
       logo: {
-        alt: 'Logo',
-        src: 'img/logo.svg',
+        alt: "Logo",
+        src: "img/logo.svg",
       },
       items: [
         {
-          href: 'https://github.com/JuanJoseMirandaM',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/JuanJoseMirandaM",
+          label: "GitHub",
+          position: "right",
         },
         {
-          href: 'https://www.linkedin.com/in/juanjosemirandam',
-          label: 'LinkedIn',
-          position: 'right',
+          href: "https://www.linkedin.com/in/juanjosemirandam",
+          label: "LinkedIn",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       copyright: `Copyright © ${new Date().getFullYear()} Juan Jose Miranda (Pepe). Built with Docusaurus.`,
     },
     prism: {
